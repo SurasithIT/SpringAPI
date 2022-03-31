@@ -1,7 +1,7 @@
-package com.example.springapi.Controllers;
+package com.example.springapi.controllers;
 
-import com.example.springapi.DTOs.UserReq;
-import com.example.springapi.Models.UserModel;
+import com.example.springapi.dto.UserReq;
+import com.example.springapi.models.UserModel;
 import com.example.springapi.db.Db;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 
+@CrossOrigin(origins = {"*"})
 @RestController
 @RequestMapping("/Users")
 public class UserController {

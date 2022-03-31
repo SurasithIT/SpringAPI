@@ -1,4 +1,4 @@
-package com.example.springapi.DTOs;
+package com.example.springapi.dto;
 
 public class UserReq {
     public UserReq(String firstName, String lastName){

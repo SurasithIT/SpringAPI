@@ -1,4 +1,4 @@
-package com.example.springapi.Models;
+package com.example.springapi.models;
 
 public class UserModel {
     public UserModel(int id, String firstName, String lastName){
